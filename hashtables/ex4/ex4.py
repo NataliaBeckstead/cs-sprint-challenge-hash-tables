@@ -1,8 +1,13 @@
 def has_negatives(a):
-    """
-    YOUR CODE HERE
-    """
-    # Your code here
+    num_hash = {}
+    for i in a:
+        if i < 0:
+            num_hash[i] = True
+
+    result = []
+    for i in a:
+        if -i in num_hash:
+            result.append(i)
 
     return result
 

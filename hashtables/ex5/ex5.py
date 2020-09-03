@@ -1,13 +1,15 @@
-# Your code here
-
-
+import os
 
 def finder(files, queries):
-    """
-    YOUR CODE HERE
-    """
-    # Your code here
+    query_hash = {}
+    for query in queries:
+        query_hash[query] = True
 
+    result = []
+    for i in files:
+        if os.path.basename(i) in query_hash:
+            result.append(i)
+            
     return result
 
 

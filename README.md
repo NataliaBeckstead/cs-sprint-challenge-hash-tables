@@ -23,11 +23,17 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+Turn string into random number. Should be consistant. Good hash functions gives very random numbers
 2. Collision resolution
+Linked list or regular list
 3. Performance of basic hash table operations
+O(1)
 4. Load factor
+Amount of items / size of hash table, reccomended to resize if > 0.7 or less than 0.2
 5. Automatic resizing
+Put check of load factor on add and delete functions, and call resize function if needed
 6. Various use cases for hash tables
+database, memoization, lookup table
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
